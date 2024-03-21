@@ -24,6 +24,3 @@ def escalonar_matriz():
     matriz_escalada_sym, _ = matriz_sym.rref()  # Desempacotando a tupla
     matriz_escalada_formatada = formatar_matriz(matriz_escalada_sym.tolist()) + '<br>'
     return matriz_escalada_formatada
-
-if __name__ == '__main__':
-    app.run()
